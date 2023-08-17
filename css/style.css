@@ -1,0 +1,87 @@
+ .container{
+    width: 1200px;
+    margin: 0 auto;
+} 
+
+/* MENU */
+.influencer-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.influencer-menu h2{
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 700;
+   color: rgb(58, 58, 58);
+}
+.influencer-menu ul{  display: flex;
+list-style: none;
+gap: 12px;
+font-family: poppins;
+font-size: 16px;
+font-weight: 600;
+color: rgb(58, 58, 58);
+}
+
+/* BOOKING PART */
+.booking-part{
+    display: flex;
+    justify-content: space-between;
+}
+.booking-part h1 {
+    font-family: poppins;
+font-size: 24px;
+font-weight: 700;
+font-size: 70px;
+color: rgb(58, 58, 58);
+width: 850px;}
+
+
+.booking-part p{
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(58, 58, 58);
+    width:500px;
+}
+.booking-part button{
+    color:white;
+     border-radius: 25%; 
+    background-color: rgb(224, 44, 109);
+    padding: 12px 20px;
+    border: 0;
+}
+.booking-image{
+    position: relative;
+}
+.booking-image .main-camera{
+    position: absolute;
+    top:20px;
+    left:5px;
+}
+/* RESPONSIVE */
+@media screen and (max-width:576px) {
+    .influencer-menu{
+    flex-direction: column;
+    }
+    .influencer-menu h2{
+        margin: 0 auto;
+    }
+    .influencer-menu ul{
+        margin: 5px auto;
+    }
+    .booking-part{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .booking-part .description{
+        text-align: center;
+    }
+    .booking-part p{
+        margin: 10px auto;
+        width:390px;
+  
+}
+}
