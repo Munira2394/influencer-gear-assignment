@@ -1,290 +1,390 @@
- .container{
-    width: 1200px;
-    margin: 0 auto;
-} 
-img{
-    width: 100%;
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+body {
+  overflow-x: hidden;
 }
 /* MENU */
-.influencer-menu{
-    display: flex;
-    justify-content: space-between;
+.influencer-menu {
+  display: flex;
+  justify-content: space-between;
 }
-.influencer-menu h2{
-    font-family: poppins;
-    font-size: 24px;
-    font-weight: 700;
-   color: rgb(58, 58, 58);
+
+.influencer-menu h2 {
+  font-family: poppins;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(58, 58, 58);
 }
-.influencer-menu ul{  display: flex;
-list-style: none;
-gap: 12px;
-font-family: poppins;
-font-size: 16px;
-font-weight: 600;
-color: rgb(58, 58, 58);
+
+.influencer-menu ul {
+  display: flex;
+  list-style: none;
+  gap: 12px;
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(58, 58, 58);
 }
 
 /* BOOKING PART */
-.booking-part{
-    display: flex;
-    justify-content: space-between;
+.booking-part {
+  display: flex;
+  justify-content: space-between;
 }
+
 .booking-part h1 {
-    font-family: poppins;
-font-size: 24px;
-font-weight: 700;
-font-size: 70px;
-color: rgb(58, 58, 58);
-width: 850px;}
-
-
-.booking-part p{
-    font-family: poppins;
-    font-size: 24px;
-    font-weight: 600;
-    font-size: 16px;
-    color: rgb(58, 58, 58);
-    width:500px;
-}
-.booking-part button{
-    color:white;
-     border-radius: 25px; 
-    background-color: rgb(224, 44, 109);
-    padding: 12px 20px;
-    border: 0;
-}
-.booking-image{
-    position: relative;
-}
-.booking-image .main-camera{
-    position: absolute;
-    top:20px;
-    left:5px;
+  font-family: poppins;
+  font-size: 24px;
+  font-weight: 700;
+  font-size: 70px;
+  color: rgb(58, 58, 58);
+  width: 850px;
 }
 
+.booking-part p {
+  font-family: poppins;
+  font-size: 24px;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgb(58, 58, 58);
+  width: 500px;
+}
+
+.booking-part button {
+  color: white;
+  border-radius: 25px;
+  background-color: rgb(224, 44, 109);
+  padding: 12px 20px;
+  border: 0;
+}
+
+.booking-image {
+  position: relative;
+}
+
+.booking-image .main-camera {
+  position: absolute;
+  top: 20px;
+  left: 5px;
+}
 
 /* LOGOS */
 
-.logos{
-    display: flex;
-    justify-content: space-around;
-    border-top: 1px solid rgba(128, 128, 128,0.2); 
-    border-bottom: 1px solid rgba(128, 128, 128,0.2); 
-    margin: 35px 0;
-    padding:20px;
- 
+.logos {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid rgba(128, 128, 128, 0.2);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+  margin: 35px 0;
+  padding: 20px;
 }
-.logos img{
-    width:10%;
+
+.logos img {
+  width: 10%;
 }
 
 /* Popular Collection */
-.container-h1{
-    font-family:poppins;
-    font-size:28px ;
-    font-weight: 600;
-    text-align: center;
-    color: rgb(58, 58, 58);
-   
-}
-.collection{
-
-display: grid;
-grid-template-columns: repeat(3,1fr);
-justify-content: space-between;
-gap: 30px;
-}
-.collection .card{
-    background-color: white;
-    padding: 10px;
-    border: 1 solid rgba(220, 220, 220,0.3);
-    box-shadow: 0px 0px 16px 0px rgba(0,0,0,.2);
+.container-h1 {
+  font-family: poppins;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(58, 58, 58);
 }
 
-.collection .card h3{
-    font-family: poppins;
-    font-size:28px ;
-    font-weight: 500;
-    color: rgb(24,25,31);
-}
-.collection .card h4{
-    font-family: poppins;
-    font-size:24px ;
-    font-weight: 400;
-    color: rgb(0,0,0);
-}
-.collection .card p{
-    font-family:poppins;
-    font-size:14px ;
-    font-weight: 700;
-    color: rgb(120,120,133);
-   text-align: left;
-   margin-top: 0;
-}
-.collection .p1
-{
-    width:180px;
-    margin-bottom: 0;
+.collection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  gap: 30px;
 }
 
-.container-button{
-    color:rgb(224, 44, 109);
-    border-radius: 25px; 
-   background-color: white;
-   padding: 12px 20px;
-   border: 0;
+.collection .card {
+  background-color: white;
+  padding: 10px;
+  border: 1 solid rgba(220, 220, 220, 0.3);
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.collection .card h3 {
+  font-family: poppins;
+  font-size: 28px;
+  font-weight: 500;
+  color: rgb(24, 25, 31);
+}
+
+.collection .card h4 {
+  font-family: poppins;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.collection .card p {
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(120, 120, 133);
+  text-align: left;
+  margin-top: 0;
+}
+
+.collection .p1 {
+  width: 180px;
+  margin-bottom: 0;
+}
+
+.container-button {
+  color: rgb(224, 44, 109);
+  border-radius: 25px;
+  background-color: white;
+  padding: 12px 20px;
+  border: 0;
   position: relative;
   left: 1100px;
   margin-top: 30px;
-  font-family:poppins;
-    font-size:16px ;
-    font-weight: 700;
-
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 700;
 }
-  .featured-product{
-    display: flex;
+
+.featured-product {
+  display: flex;
   gap: 60px;
   text-align: left;
-
-}
-     .featured-product .featured-description{
-height: 100%;
-     justify-content: center;
-    align-items:center;  
-      }  
-
-      .featured-description  h2{
-        font-family:poppins;
-        font-size:38px ;
-        font-weight: 700;
-      }
-      .featured-description p{
-        font-family:poppins;
-        font-size:16px ;
-        font-weight: 700;
-        color: rgb(108,108,108);
-        width: 500px;
-        padding: 25px 0;
-      }
-      .join-button{
-        font-family:poppins;
-        font-size:16px ;
-        font-weight: 700;
-       background-color:rgb(224, 44, 109);
-       color: white;
-       padding: 12px 20px;
-       border: 0;
-      }
-
-  .featured-product img{
-    width: 45%;
-  }
-
-  /* footer */
-  .footer{
-   margin-top: 50px;
-    background-color: rgb(10, 8, 38);
-    padding: 50px;
-  }
-  .footer-description {
-    /* color: white; */
-    text-align: center;
-    }
-
-    .footer-description h1{
-        text-align: center; 
-        font-family:poppins;
-        font-size:24px ;
-        font-weight: 700;
-        color: white;
-
-    }
-  .footer-description p{
-    color: rgb(217,219,225);
-    text-align: center;
-    text-align: center; 
-    font-family:poppins;
-    font-size:14px ;
-    font-weight: 500;
-  }
-  .footer-description span{
-    color: rgb(217,219,225);
-    font-family:poppins;
-    font-size:14px ;
-    font-weight: 500;
-  }
-  .footer-icons{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-  }
-.footer-icons i{
-    color: white;
-}
-/* RESPONSIVE */
-@media screen and (max-width:576px) {
-    /* influencer menu */
-    .influencer-menu{
-    flex-direction: column;
-    }
-    .influencer-menu h2{
-        margin: 0 auto;
-    }
-    .influencer-menu ul{
-        margin: 5px auto;
-    }
-
-
-    /* booking */
-    .booking-part{
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-    }
-    .booking-part .description{
-        text-align: center;
-    }
-    .booking-part p{
-        margin: 10px auto;
-        width:390px;
-  
 }
 
-
-/* Logos */
-.logos img{
-    width:30%;
-}
-  .logos{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    
-} 
-
-
-/* collection */
-.collection .card{
-    width: 80%;
-    margin: 0 auto;
-}
-.collection{
-   grid-template-columns: repeat(1,1fr);
+.featured-product .featured-description {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
+.featured-description h2 {
+  font-family: poppins;
+  font-size: 38px;
+  font-weight: 700;
+}
 
-/* Featured */
-.featured-product{
-    display: flex;
-    flex-direction: column-reverse;
-  gap: 60px;
+.featured-description p {
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(108, 108, 108);
+  width: 500px;
+  padding: 25px 0;
+}
+
+.join-button {
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: rgb(224, 44, 109);
+  color: white;
+  padding: 12px 20px;
+  border: 0;
+}
+
+.featured-product img {
+  width: 45%;
+}
+
+/* footer */
+.footer {
+  padding: 20px 0;
+  margin-top: 50px;
+  background-color: rgb(10, 8, 38);
+}
+
+.footer-description {
   text-align: center;
+}
 
+.footer-description h1 {
+  text-align: center;
+  font-family: poppins;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
 }
-.featured-description p{
-    margin: 0 auto;
+
+.footer-description p {
+  color: rgb(217, 219, 225);
+  text-align: center;
+  text-align: center;
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 500;
 }
-.featured-product img{
-    align-self: center;
+
+.footer-description span {
+  color: rgb(217, 219, 225);
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 500;
 }
+
+.footer-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
+
+.footer-icons i {
+  color: white;
+}
+
+/* RESPONSIVE */
+/* @media screen and (max-width: 576px) { */
+    /* influencer menu
+    .influencer-menu {
+      flex-direction: column;
+    }
+  
+    .influencer-menu h2 {
+      margin: 0 auto;
+    }
+  
+    .influencer-menu ul {
+      margin: 5px auto;
+    }
+  
+    /* booking */
+    /* .booking-part {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .booking-part .description {
+      text-align: center;
+    }
+  
+    .booking-part p {
+      margin: 10px auto;
+      width: 390px;
+    }
+  
+    /* Logos */
+    /* .logos img {
+      width: 30%;
+    }
+  
+    .logos {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+  
+    /* collection */
+    /* .collection .card {
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    .collection {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    /* Featured */
+    /* .featured-product {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 60px;
+      text-align: center;
+    }
+  
+    .featured-description p {
+      margin: 0 auto;
+    }
+  
+    .featured-product img {
+      align-self: center;
+    }
+  
+    .footer .container {
+      background-color: rgb(10, 8, 38); */
+    /* } */
+  /* }  */
+
+  /* Add your existing CSS code above */
+
+/* RESPONSIVE */
+@media screen and (max-width: 567px) {
+    /* influencer menu */
+    .influencer-menu {
+      flex-direction: column;
+    }
+  
+    .influencer-menu h2 {
+      margin: 0 auto;
+    }
+  
+    .influencer-menu ul {
+      margin: 5px auto;
+    }
+  
+    /* booking */
+    .booking-part {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .booking-part .description {
+      text-align: center;
+    }
+  
+    .booking-part p {
+      margin: 10px auto;
+      width: 100%; /* Adjust this as needed */
+    }
+  
+    /* Logos */
+    .logos img {
+      width: 30%;
+    }
+  
+    .logos {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+  
+    /* collection */
+    .collection .card {
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    .collection {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    /* Featured */
+    .featured-product {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 60px;
+      text-align: center;
+    }
+  
+    .featured-description p {
+      margin: 0 auto;
+    }
+  
+    .featured-product img {
+      align-self: center;
+    }
+  
+    .footer .container {
+      background-color: rgb(10, 8, 38);
+    }
+  }
+  
+  /* Add your existing CSS code below */
+  
